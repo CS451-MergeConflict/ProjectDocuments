@@ -39,7 +39,7 @@ This repository contains the most recent versions of the following project docum
   [View & Edit](LINK_GOES_HERE)  
 
 - **Requirement Document**  
-  [View & Edit](LINK_GOES_HERE)  
+  [View & Edit]([LINK_GOES_HERE](https://docs.google.com/document/d/1gB8zNMhdgJGVSKeaMXHyUX6ga4N3SzyLgPqICZAXapk/edit?usp=sharing))  
 
 - **Architecture/Design Document**  
   [View & Edit](LINK_GOES_HERE)  
