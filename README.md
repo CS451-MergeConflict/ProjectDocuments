@@ -36,7 +36,8 @@ This repository contains the most recent versions of the following project docum
   [View & Edit](https://docs.google.com/document/d/1fTvWclyQmEySF6u1BF-Sc73SU77noMziJTwaZnt34VA/edit?usp=sharing)  
 
 - **Project Requirements**  
-  [View & Edit](https://docs.google.com/document/d/1xKKq9jHDiRYv8DsWYYxi4ZkkOda5hSGhHQVd8MYB_RU/edit?usp=sharing)  
+  [View & Edit](https://docs.google.com/document/d/1xKKq9jHDiRYv8DsWYYxi4ZkkOda5hSGhHQVd8MYB_RU/edit?usp=sharing)
 
-- **Software Project Management Plan** 
+  
+- **Software Project Management Plan**  
   [View & Edit](https://docs.google.com/document/d/1LicntMGMeo2WqmfiB24535T5JjHVpJt69U7ANNgKGag/edit?usp=sharing)
