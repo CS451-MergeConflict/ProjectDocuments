@@ -45,13 +45,13 @@ This repository contains the most recent versions of the following project docum
   [View & Edit](LINK_GOES_HERE)  
 
 - **Test Plan**  
-  [View & Edit](LINK_GOES_HERE)  
+  [View & Edit](https://docs.google.com/document/d/1CSgFPbTA48Q9rKolZFZvY6YwCe87BmZ07HyYqHtt-Pg/edit?usp=sharing)  
 
 - **Test Specification (Test Cases)**  
-  [View & Edit](LINK_GOES_HERE)  
+  [View & Edit](https://docs.google.com/document/d/1b2E77GayKlPo3IJoSWCTQBuhWT2xjOsS4WUhND96dS0/edit?usp=sharing)  
 
 - **Test Report**  
-  [View & Edit](LINK_GOES_HERE)  
+  [View & Edit](https://docs.google.com/document/d/1zFfkapmZDuaDHOkXHGUymFhqO0-PuzjWIWSzQwUq28E/edit?usp=sharing)  
 
 - **User Guide**  
   [View & Edit](LINK_GOES_HERE)  
