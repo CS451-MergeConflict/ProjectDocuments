@@ -54,7 +54,7 @@ This repository contains the most recent versions of the following project docum
   [View & Edit](https://docs.google.com/document/d/1zFfkapmZDuaDHOkXHGUymFhqO0-PuzjWIWSzQwUq28E/edit?usp=sharing)  
 
 - **User Guide**  
-  [View & Edit](LINK_GOES_HERE)  
+  [View & Edit](https://docs.google.com/document/d/1P3HuA1C6OY0aFzwyCCO3HKtaPHE8R1t0qsv5YqnDioU/edit?usp=sharing)  
 
 - **Project Charter**  
   [View & Edit](https://docs.google.com/document/d/1fTvWclyQmEySF6u1BF-Sc73SU77noMziJTwaZnt34VA/edit?usp=sharing)  
