@@ -33,7 +33,7 @@ This repository contains the most recent versions of the following project docum
 ## Google Docs Links  
 
 - **Team Effort Estimation**  
-  [View & Edit](LINK_GOES_HERE)  
+  [View & Edit](https://docs.google.com/spreadsheets/d/1CmT0AztsEPWvN_ZT2KN-aXgmvYNaw08aszNdxjxtnu0/edit?usp=sharing)  
 
 - **Project Plan**  
   [View & Edit](LINK_GOES_HERE)  
@@ -42,7 +42,7 @@ This repository contains the most recent versions of the following project docum
   [View & Edit](https://docs.google.com/document/d/1gB8zNMhdgJGVSKeaMXHyUX6ga4N3SzyLgPqICZAXapk/edit?usp=sharing)  
 
 - **Architecture/Design Document**  
-  [View & Edit](LINK_GOES_HERE)  
+  [View & Edit](https://docs.google.com/document/d/1hozO47dJA59GnOgNfiHc3lxkfq7GFas5tj6jSQ86C_0/edit?usp=sharing)  
 
 - **Test Plan**  
   [View & Edit](https://docs.google.com/document/d/1CSgFPbTA48Q9rKolZFZvY6YwCe87BmZ07HyYqHtt-Pg/edit?usp=sharing)  
