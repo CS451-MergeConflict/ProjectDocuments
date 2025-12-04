@@ -33,11 +33,8 @@ This repository contains the most recent versions of the following project docum
 ## Google Docs Links  
 
 - **Team Effort Estimation**  
-  [View & Edit](https://docs.google.com/spreadsheets/d/1CmT0AztsEPWvN_ZT2KN-aXgmvYNaw08aszNdxjxtnu0/edit?usp=sharing)  
-
-- **Project Plan**  
-  [View & Edit](LINK_GOES_HERE)  
-
+  [View & Edit](https://docs.google.com/spreadsheets/d/1CmT0AztsEPWvN_ZT2KN-aXgmvYNaw08aszNdxjxtnu0/edit?usp=sharing)
+  
 - **Requirement Document**  
   [View & Edit](https://docs.google.com/document/d/1gB8zNMhdgJGVSKeaMXHyUX6ga4N3SzyLgPqICZAXapk/edit?usp=sharing)  
 
