@@ -1,5 +1,9 @@
-# Transactions table
+# Database Schemas and RLS policies assigned to each table
 
+We used a PostgreSQL database hosted with Supabase for Recur.
+
+# Transactions table
+```sql
 create table public.transactions (
   id serial not null,
   user_id uuid not null,
@@ -39,10 +43,11 @@ create table public.transactions (
 ) TABLESPACE pg_default;
 
 create index IF not exists idx_transactions_user_id on public.transactions using btree (user_id) TABLESPACE pg_default;
+```
 
 # User Login Table
-
-CREATE  TABLE public.userlogin (
+```sql
+CREATE TABLE public.userlogin (
   id uuid NOT NULL,
   firstname text NULL,
   lastname text NULL,
@@ -64,87 +69,78 @@ CREATE  TABLE public.userlogin (
   CONSTRAINT userlogin_id_fkey FOREIGN KEY (id) REFERENCES auth.users(id) ON DELETE CASCADE,
   CONSTRAINT userlogin_phone_check CHECK ((length(phone) <= 10))
 ) TABLESPACE pg_default;
+
 CREATE TRIGGER set_updated_at BEFORE UPDATE ON userlogin FOR EACH ROW EXECUTE FUNCTION set_updated_at();
+
 CREATE TRIGGER sync_slug_from_username BEFORE INSERT OR UPDATE OF username ON userlogin FOR EACH ROW EXECUTE FUNCTION sync_slug_from_username();
+```
 
 ---
 
 # RLS policies assigned to each table
 
-# User Login Table:
+## User Login Table
 
-## Read transactions of logged in user
-
+### Read transactions of logged in user
+```sql
 alter policy "read own userlogin"
-
 on "public"."userlogin"
-
 to public
-
 using (
   (auth.uid() = id)
 );
+```
 
-## Update own user login
-
+### Update own user login
+```sql
 alter policy "update own userlogin"
-
 on "public"."userlogin"
-
 to public
-
 using (
   (auth.uid() = id)
 );
+```
 
-# Transactions Table
+## Transactions Table
 
-## Insert own transactions
-
+### Insert own transactions
+```sql
 alter policy "insert own transactions"
-
 on "public"."transactions"
-
 to public
-
 with check (
- (user_id = auth.uid())
+  (user_id = auth.uid())
 );
+```
 
-## Read own transactions
+### Read own transactions
+```sql
 alter policy "read own transactions"
-
 on "public"."transactions"
-
 to public
-
 using (
   (user_id = auth.uid())
 );
+```
 
-## User can delete own transactions
-
+### User can delete own transactions
+```sql
 alter policy "Users can delete own transactions"
-
 on "public"."transactions"
-
 to authenticated
-
 using (
   (user_id = auth.uid())
 );
+```
 
-## User can edit own transactions
-
+### User can edit own transactions
+```sql
 alter policy "Users can update own transactions"
-
 on "public"."transactions"
-
 to authenticated
-
 using (
   (auth.uid() = user_id)
-
 ) with check (
   (auth.uid() = user_id)
 );
+```
