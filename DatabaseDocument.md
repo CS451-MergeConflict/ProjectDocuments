@@ -2,6 +2,22 @@
 
 We used a PostgreSQL database hosted with Supabase for Recur.
 
+# Basic schema diagram
+
+<img width="878" height="848" alt="image" src="https://github.com/user-attachments/assets/7b10d0bd-7ed3-48b9-a471-70988680d229" />
+
+# Database functions
+
+<img width="944" height="492" alt="image" src="https://github.com/user-attachments/assets/37a245d3-e096-4b08-ab35-02be6f50574c" />
+
+# Database triggers
+
+<img width="948" height="382" alt="image" src="https://github.com/user-attachments/assets/bf35c1ea-2a6a-4ff2-935c-3186e8e8ac52" />
+
+# Indexes
+
+<img width="949" height="526" alt="image" src="https://github.com/user-attachments/assets/a619a882-1051-4b38-bda9-b6af2ecd157c" />
+
 # Transactions table
 ```sql
 create table public.transactions (
